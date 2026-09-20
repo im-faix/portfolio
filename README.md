@@ -1,12 +1,14 @@
 # Mohammed's Portfolio
 
-A fast, dependency-free portfolio site. All content that you are likely to change is in [`script.js`](./script.js).
+A fast, dependency-free portfolio site with a light/dark theme. All content that you are likely to change is in [`script.js`](./script.js).
 
 ## Update it
 
 1. Open `script.js`.
 2. Replace the email, GitHub, LinkedIn, skills, and project details.
 3. Open `index.html` in a browser to preview the changes.
+
+The theme button in the header switches between black/dark and light/white themes and remembers the visitor's choice.
 
 ## Free hosting
 
@@ -20,6 +22,8 @@ A fast, dependency-free portfolio site. All content that you are likely to chang
 6. GitHub will provide a free `https://your-username.github.io/portfolio/` URL.
 
 Future updates are simple: edit `script.js`, commit, and push. GitHub Pages will publish the change automatically.
+
+> Important: `https://im-faix.github.io/portfolio/` is the **site URL**, not a custom domain. Leave the **Custom domain** field empty unless you own a separate domain such as `www.example.com`. Never enter a URL containing `https://` or a path such as `/portfolio/` in that field.
 
 ### Netlify alternative
 
