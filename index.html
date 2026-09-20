@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mohammed — DevOps Engineer portfolio" />
+    <title>Mohammed | DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">M<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-small button-outline" id="header-contact" href="#contact">Let's talk <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+          <h1>Building reliable systems,<br /><em>one deployment at a time.</em></h1>
+          <p class="hero-description">I’m Mohammed, a DevOps Engineer focused on cloud infrastructure, automation, and making software delivery calm, observable, and repeatable.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="text-link" id="hero-linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="terminal-top"><span></span><span></span><span></span><small>~/mohammed</small></div>
+          <div class="terminal-body">
+            <p><span class="terminal-muted">$</span> whoami</p>
+            <p class="terminal-value">devops.engineer</p>
+            <p><span class="terminal-muted">$</span> cat focus.txt</p>
+            <p class="terminal-value">cloud · automation · reliability</p>
+            <p><span class="terminal-muted">$</span> <span class="cursor"></span></p>
+          </div>
+          <div class="card-orbit"></div>
+        </div>
+      </section>
+
+      <section class="trust-bar section-wrap" aria-label="Core technologies">
+        <span>Working with</span>
+        <strong>KUBERNETES</strong><strong>AWS</strong><strong>DOCKER</strong><strong>TERRAFORM</strong><strong>CI/CD</strong>
+      </section>
+
+      <section class="section-wrap section" id="work">
+        <div class="section-heading">
+          <div><p class="eyebrow">Selected work</p><h2>Things I’ve built<br /><span>& improved.</span></h2></div>
+          <p class="section-intro">A selection of projects where infrastructure, automation, and product thinking come together.</p>
+        </div>
+        <div class="project-grid" id="project-list"></div>
+      </section>
+
+      <section class="section-wrap section about-grid" id="about">
+        <div><p class="eyebrow">A little about me</p><h2>Turning complexity<br /><span>into clarity.</span></h2></div>
+        <div class="about-copy">
+          <p>I enjoy working at the intersection of development and operations: designing resilient infrastructure, automating repetitive work, and helping teams ship with confidence.</p>
+          <p>When I’m not improving a pipeline or debugging a deployment, I’m learning something new and documenting what I discover.</p>
+          <div class="skill-list" id="skill-list"></div>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <p class="eyebrow">Have a project in mind?</p>
+        <h2>Let’s make it<br /><em>reliable.</em></h2>
+        <a class="contact-email" id="email-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      </section>
+    </main>
+    <footer class="site-footer section-wrap">
+      <span>© 2026 Mohammed</span>
+      <span>Designed & built with care</span>
+      <div><a id="footer-github" href="#" target="_blank" rel="noreferrer">GitHub</a><a id="footer-linkedin" href="#" target="_blank" rel="noreferrer">LinkedIn</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
