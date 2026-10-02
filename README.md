@@ -10,6 +10,17 @@ A fast, dependency-free portfolio site with a light/dark theme. All content that
 
 The theme button in the header switches between black/dark and light/white themes and remembers the visitor's choice.
 
+## Resume
+
+The **Resume** buttons download `resume.pdf`. To update the resume, edit `resume.html` and regenerate the PDF from this folder:
+
+```sh
+google-chrome --headless --no-sandbox --disable-gpu --no-pdf-header-footer \
+  --print-to-pdf=resume.pdf "file://$(pwd)/resume.html"
+```
+
+Commit both `resume.html` and `resume.pdf` when you publish changes.
+
 ## Free hosting
 
 ### GitHub Pages (recommended)
